@@ -2,7 +2,7 @@
 
 ## Diagnostic data
 
-Source: Breast Cancer Wisconsin (Diagnostic), UCI Machine Learning Repository. Dataset contributors William H. Wolberg, W. Nick Street, and Olvi L. Mangasarian. DOI: https://doi.org/10.24432/C5DW2B.
+Source: Breast Cancer Wisconsin (Diagnostic), UCI Machine Learning Repository. UCI lists the dataset attribution as Wolberg W, Mangasarian O, Street N, and Street W (1993). DOI: https://doi.org/10.24432/C5DW2B.
 
 Dataset page: https://archive.ics.uci.edu/dataset/17/breast%2Bcancer%2Bwisconsin%2Bdiagnostic
 
