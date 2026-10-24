@@ -1,0 +1,593 @@
+{
+  "figures": [
+    {
+      "label": "1.1",
+      "id": "ch01_plate",
+      "title": "Breast anatomy and regional lymphatic structures",
+      "caption": "An NCI anatomical illustration locates ducts and glandular structures within the breast and shows the regional lymphatic network. The drawing is a simplified anatomical representation, not a diagram of disease spread. Credit Don Bliss and National Cancer Institute, Visuals Online 9306. Public domain. Image credit I1.",
+      "file": "ch01_plate.png",
+      "width_inches": 5.5,
+      "pixels": [
+        1013,
+        783
+      ],
+      "kind": "Scientific plate",
+      "bookmark": "figure_1_1"
+    },
+    {
+      "label": "1.2",
+      "id": "ch01_01",
+      "title": "Breast structures from surface to gland",
+      "caption": "The breast contains glandular structures connected to ducts within supporting fat and fibrous tissue. It lies in front of the chest musculature. The separate lymphatic inset shows a simplified regional relationship; it does not depict a route that every cancer follows. Original schematic, not to scale. [C1S02, C1S03]",
+      "file": "ch01_01.png",
+      "width_inches": 6.25,
+      "pixels": [
+        2280,
+        2070
+      ],
+      "kind": "Original scientific diagram",
+      "bookmark": "figure_1_2"
+    },
+    {
+      "label": "1.3",
+      "id": "ch01_02",
+      "title": "Two routes into assessment",
+      "caption": "Screening starts without symptoms; diagnostic assessment addresses a reported change or a finding that needs investigation. Tests are selected for the clinical question, so the pathway does not require every person to undergo imaging or biopsy. A result needs explanation and an agreed next step. A new concern should be reported even after a normal screening result. [C1S01, C1S04, C1S19, C1S28]",
+      "file": "ch01_02.png",
+      "width_inches": 5.4541176470588235,
+      "pixels": [
+        2280,
+        2550
+      ],
+      "kind": "Original scientific diagram",
+      "bookmark": "figure_1_3"
+    },
+    {
+      "label": "1.4",
+      "id": "ch01_03",
+      "title": "Different descriptions of disease",
+      "caption": "The boundary comparison explains in situ and invasive disease without implying that all in situ findings inevitably progress. Once breast cancer is characterised, anatomical extent, grade and biomarkers provide complementary information. Breast staging combines applicable findings under a defined system; a symptom or one label cannot supply the stage. LCIS is a distinct risk-associated pathological category and is not represented as invasive disease here. [C1S06, C1S07, C1S09, C1S10, C1S11, C1S29]",
+      "file": "ch01_03.png",
+      "width_inches": 5.943589743589743,
+      "pixels": [
+        2280,
+        2340
+      ],
+      "kind": "Original scientific diagram",
+      "bookmark": "figure_1_4"
+    },
+    {
+      "label": "1.5",
+      "id": "ch01_04",
+      "title": "A record answers a question at a particular time",
+      "caption": "In this fictional research example, the diagnostic image is available before the tissue result. A later, correctly linked result may provide reference information, but it cannot be treated as if it were already known at image acquisition. Future-risk estimation asks a different question with an explicit time period. Events and specimens must retain their source and date. [C1S13, C1S15, C1S19, C1S20, C1S31]",
+      "file": "ch01_04.png",
+      "width_inches": 6.25,
+      "pixels": [
+        2280,
+        1770
+      ],
+      "kind": "Original scientific diagram",
+      "bookmark": "figure_1_5"
+    },
+    {
+      "label": "2.1",
+      "id": "ch02_01",
+      "title": "Two routes into breast assessment",
+      "caption": "Screening and assessment of symptoms enter care through different routes. A recall joins diagnostic assessment, where clinicians select investigations appropriate to the concern. Some findings are resolved without biopsy. The diagram explains relationships between tasks; it is not a universal clinical protocol, and a screening result does not settle a new symptom. [C2S01, C2S02, C2S03, C2S21]",
+      "file": "ch02_01.png",
+      "width_inches": 6.25,
+      "pixels": [
+        2340,
+        1860
+      ],
+      "kind": "Original scientific diagram",
+      "bookmark": "figure_2_1"
+    },
+    {
+      "label": "2.2",
+      "id": "ch02_02",
+      "title": "Screening changes what is observed and when",
+      "caption": "A: In an invented example, diagnosis moves from age 65 to 62 while death remains at 70. Survival measured after diagnosis increases from five to eight years without life extension. B: Scheduled examination times have more opportunities to intersect a longer detectable phase. These are possible opportunities, not repeated diagnoses after a first detection. Window lengths and examination times are teaching values, not breast tumour growth estimates or a recommended schedule. [C2S14, C2S15]",
+      "file": "ch02_02.png",
+      "width_inches": 6.25,
+      "pixels": [
+        2340,
+        1890
+      ],
+      "kind": "Original scientific diagram",
+      "bookmark": "figure_2_2"
+    },
+    {
+      "label": "2.3",
+      "id": "ch02_plate",
+      "title": "An archived mammogram linked to a diagnosis",
+      "caption": "This archived mammogram is catalogued by NCI as a breast with a finding diagnosed as colloid carcinoma. The diagnosis comes from the source record; appearance alone is not its confirmation. It is an example of the measurement, not an image-matching guide or a validation dataset for this book. April 1990. Credit American College of Radiology and National Cancer Institute, Visuals Online 2510. Public domain. Image credit I2.",
+      "file": "ch02_plate.png",
+      "width_inches": 3.9,
+      "pixels": [
+        1800,
+        2253
+      ],
+      "kind": "Scientific plate",
+      "bookmark": "figure_2_3"
+    },
+    {
+      "label": "2.4",
+      "id": "ch02_03",
+      "title": "Different images begin with different signals",
+      "caption": "Simplified measurement schematics explain why the methods provide different information. Mammography records x-ray projections in which structures can overlap; tomosynthesis uses several x-ray angles to reconstruct sections. Ultrasound forms images from returning sound echoes. MRI uses a magnetic field and radiofrequency (RF) measurements; breast MRI for cancer detection usually uses intravenous (IV) contrast. Shapes are geometric teaching elements, not anatomy, lesion examples, or a ranking of diagnostic performance. [C2S02, C2S04, C2S12, C2S13, C2S21]",
+      "file": "ch02_03.png",
+      "width_inches": 6.25,
+      "pixels": [
+        2340,
+        2040
+      ],
+      "kind": "Original scientific diagram",
+      "bookmark": "figure_2_4"
+    },
+    {
+      "label": "2.5",
+      "id": "ch02_04",
+      "title": "A recall episode needs a completed information loop",
+      "caption": "A recall is complete as an information pathway only when assessment and its outcome are connected to the person, an agreed plan, and the care record. The return arrow represents closure information reaching the recall service, not an instruction to start another recall or repeat a test. Navigation and access support can address incomplete steps. These events are a conceptual model, not a universal clinic protocol or timetable. [C2S04, C2S16, C2S17]",
+      "file": "ch02_04.png",
+      "width_inches": 6.25,
+      "pixels": [
+        2340,
+        1770
+      ],
+      "kind": "Original scientific diagram",
+      "bookmark": "figure_2_5"
+    },
+    {
+      "label": "3.1",
+      "id": "ch03_plate",
+      "title": "Breast fine needle aspiration cytology",
+      "caption": "A real Pap-stained fine-needle aspiration micrograph, catalogued as ductal carcinoma. This is a separate teaching image, not an original WDBC image or an input used to fit the companion model. No scale or magnification has been inferred. Frame 0 extracted from the source animation; otherwise no image content changed. Credit Nephron, CC BY-SA 3.0. Image credit I3.",
+      "file": "ch03_plate.png",
+      "width_inches": 6.2,
+      "pixels": [
+        4272,
+        2848
+      ],
+      "kind": "Scientific plate",
+      "bookmark": "figure_3_1"
+    },
+    {
+      "label": "3.2",
+      "id": "ch03_01",
+      "title": "Related patches must follow their source",
+      "caption": "Illustrative assignment of eight image patches from four participants, each contributing one specimen. Splitting patches places material from every participant on both sides. Grouping by participant keeps all associated patches together. This demonstrates the source relationship; it is not a proposed study sample size or evidence of duplicated WDBC cases. [C3S10, C3S07]",
+      "file": "ch03_01.png",
+      "width_inches": 6.25,
+      "pixels": [
+        2160,
+        1830
+      ],
+      "kind": "Original scientific diagram",
+      "bookmark": "figure_3_2"
+    },
+    {
+      "label": "3.3",
+      "id": "ch03_02",
+      "title": "Fit a new scaler within each training fold",
+      "caption": "The 426 development cases supply five training-validation comparisons for each candidate C. In each comparison, fit a fresh scaler and classifier on the training portion, transform the validation portion with the stored training statistics, and score its predictions. The 143-case holdout remains outside model selection. Four settings across five folds give 20 comparisons before the final refit. Equal-width blocks are schematic; folds need not contain identical case counts. [C3S06, C3S07, C3S08, C3S11]",
+      "file": "ch03_02.png",
+      "width_inches": 6.25,
+      "pixels": [
+        2160,
+        1890
+      ],
+      "kind": "Original scientific diagram",
+      "bookmark": "figure_3_3"
+    },
+    {
+      "label": "3.4",
+      "id": "ch03_03",
+      "title": "A positive result changes the denominator",
+      "caption": "Hypothetical expected counts for 100,000 people, 0.5% prevalence, 90% sensitivity, and 95% specificity. The positive-result pool contains 450 true positives and 4,975 false positives, giving PPV 8.29%. Each bar is normalized to its own explicitly labelled denominator; bar lengths do not compare population sizes. These are teaching assumptions, not measured screening performance or transferred WDBC estimates. [C3S14, C3S15]",
+      "file": "ch03_03.png",
+      "width_inches": 6.25,
+      "pixels": [
+        2160,
+        1800
+      ],
+      "kind": "Original scientific diagram",
+      "bookmark": "figure_3_4"
+    },
+    {
+      "label": "3.5",
+      "id": "05_prevalence_and_ppv",
+      "title": "The effect of prevalence on positive predictive value",
+      "caption": "A mathematical illustration using assumed fixed sensitivity of 90% and specificity of 95%. The points are calculations, not measured screening estimates and not transported from the WDBC classifier.",
+      "file": "legacy_prevalence.png",
+      "width_inches": 6.2,
+      "pixels": [
+        2063,
+        968
+      ],
+      "kind": "Hypothetical arithmetic",
+      "bookmark": "figure_3_5"
+    },
+    {
+      "label": "3.6",
+      "id": "ch03_04",
+      "title": "Actual WDBC holdout: score ordering and probability agreement",
+      "caption": "Actual scores for 143 selected WDBC diagnostic cases. A: the ROC curve summarizes score ordering; the diamond marks threshold 0.5, with sensitivity 48/53 and specificity 90/90. B: each occupied fixed probability interval contributes its mean prediction and observed malignant fraction, labelled with its case count. The 0.6 to below 0.8 interval is empty and contributes no point. Dashed diagonals have different roles: no useful score ordering in A, equal predicted and observed fractions in B. Grouped probability comparisons are descriptive and do not establish clinical calibration or screening validity. [C3S01, C3S02, C3S14, C3S16, C3S18]",
+      "file": "ch03_04.png",
+      "width_inches": 6.25,
+      "pixels": [
+        2160,
+        1500
+      ],
+      "kind": "Executed diagnostic analysis",
+      "bookmark": "figure_3_6"
+    },
+    {
+      "label": "4.1",
+      "id": "ch04_plate",
+      "title": "Archived mammographic images of dense breasts",
+      "caption": "These archived images are catalogued by NCI as normal dense breasts. They show that radiopaque tissue contributes substantially to an image even when the source record does not describe a malignant finding. They do not establish a diagnosis for a different image or measure AI performance. February 1994. Credit Dr Dwight Kaufman, Division of Cancer Treatment and National Cancer Institute, Visuals Online 2695. Public domain. Image credit I4.",
+      "file": "ch04_plate.png",
+      "width_inches": 3.65,
+      "pixels": [
+        1751,
+        2700
+      ],
+      "kind": "Scientific plate",
+      "bookmark": "figure_4_1"
+    },
+    {
+      "label": "4.2",
+      "id": "ch04_01",
+      "title": "One examination produces several related files",
+      "caption": "Schematic records from a fictional project. Views, repeated examinations, and tiles remain related through their source person. File-level allocation can place information from the same person in training and testing; grouping by person preserves the boundary when evaluating previously unseen people. [C4S01, C4S06]",
+      "file": "ch04_01.png",
+      "width_inches": 6.25,
+      "pixels": [
+        2400,
+        2190
+      ],
+      "kind": "Original scientific diagram",
+      "bookmark": "figure_4_2"
+    },
+    {
+      "label": "4.3",
+      "id": "ch04_02",
+      "title": "From linked images to a reading decision",
+      "caption": "A conceptual image assessment pipeline. Development choices are fixed before independent evaluation. The clinical intervention includes how the reader receives and acts on the output, plus the service response when analysis fails. No model performance is implied by the diagram. [C4S01, C4S12, C4S16]",
+      "file": "ch04_02.png",
+      "width_inches": 6.25,
+      "pixels": [
+        2400,
+        2100
+      ],
+      "kind": "Original scientific diagram",
+      "bookmark": "figure_4_3"
+    },
+    {
+      "label": "4.4",
+      "id": "ch04_03",
+      "title": "Synthetic image utility and privacy require separate evidence",
+      "caption": "Utility and privacy are separate investigations. Generated material can be clinically unsuitable without copying, or appear useful while remaining too close to a training record. Similarity screening and a specified attack assessment provide bounded evidence; release decisions also depend on permissions and intended use. [C4S08, C4S02]",
+      "file": "ch04_03.png",
+      "width_inches": 6.25,
+      "pixels": [
+        2400,
+        2100
+      ],
+      "kind": "Original scientific diagram",
+      "bookmark": "figure_4_4"
+    },
+    {
+      "label": "4.5",
+      "id": "ch04_04",
+      "title": "MASAI reports answer different questions as follow-up matures",
+      "caption": "MASAI produced successive reports from one randomized screening trial. The primary interval-cancer result was pending in the 2023 report and available in 2026. Its ratio of 0.88 with 95 percent confidence interval 0.65–1.18 supported non-inferiority under the prespecified margin, without establishing superior interval-cancer reduction or a mortality benefit. [C4S09, C4S10, C4S11]",
+      "file": "ch04_04.png",
+      "width_inches": 6.25,
+      "pixels": [
+        2400,
+        1950
+      ],
+      "kind": "Original scientific diagram",
+      "bookmark": "figure_4_5"
+    },
+    {
+      "label": "4.6",
+      "id": "06_masai_interval_ratio",
+      "title": "The MASAI interval cancer ratio and uncertainty",
+      "caption": "Published MASAI summary estimate 0.88 with 95% confidence interval 0.65 to 1.18. The trial established non-inferiority under its prespecified margin; this interval does not establish superior reduction or mortality benefit. This plot is a visualization of the reported statistic, not a reanalysis of patient data. [C4S11]",
+      "file": "legacy_masai.png",
+      "width_inches": 6.2,
+      "pixels": [
+        2065,
+        883
+      ],
+      "kind": "Published summary statistic",
+      "bookmark": "figure_4_6"
+    },
+    {
+      "label": "5.1",
+      "id": "ch05_01",
+      "title": "From a sample pair to candidate evidence",
+      "caption": "Fictional paired analysis. T1 and N1 contribute tumour and matched normal DNA evidence; R1 contributes RNA evidence from its defined specimen context. Calling and interpretation retain the sample relationship and the reference and transcript context. The resulting table summarizes candidate evidence and unresolved questions. A reference genome and a panel of normals have different roles from an individual matched normal sample. [C5S04, C5S05, C5S06, C5S07, C5S18]",
+      "file": "ch05_01.png",
+      "width_inches": 6.1,
+      "pixels": [
+        2400,
+        2400
+      ],
+      "kind": "Original scientific diagram",
+      "bookmark": "figure_5_1"
+    },
+    {
+      "label": "5.2",
+      "id": "ch05_02",
+      "title": "Follow a difference through related molecules",
+      "caption": "A conceptual coding interpretation. Transcript 1 retains the exon containing the marked DNA alteration; the illustrated alternative transcript skips that exon. A possible missense consequence is followed into a protein and several possible fragments, only one of which contains the altered position. No nucleotide or amino acid sequence is shown. The drawing does not establish that either transcript is translated or that any illustrated fragment is produced or displayed. [C5S02, C5S03, C5S06, C5S17]",
+      "file": "ch05_02.png",
+      "width_inches": 6.25,
+      "pixels": [
+        2400,
+        2250
+      ],
+      "kind": "Original scientific diagram",
+      "bookmark": "figure_5_2"
+    },
+    {
+      "label": "5.3",
+      "id": "ch05_03",
+      "title": "Processing, display and possible recognition",
+      "caption": "Two common routes from protein material to T cell recognition. A, a cytosolic fragment can enter the ER through TAP and participate in class I loading and editing before a peptide-HLA I complex reaches the cell surface. B, taken-up material can be processed in endosomal and lysosomal compartments, where HLA-DM assists class II peptide exchange before surface display. Appropriate CD8 and CD4 T cells may recognize the respective complexes. These simplified routes have biological exceptions. Small ovals symbolize loaded complexes; structural detail, intermediate trafficking compartments and many partners are omitted. Display and recognition do not establish tumour elimination. [C5S09, C5S26, C5S27, C5S28, C5S29, C5S30]",
+      "file": "ch05_03.png",
+      "width_inches": 5.083333333333333,
+      "pixels": [
+        2400,
+        2880
+      ],
+      "kind": "Original scientific diagram",
+      "bookmark": "figure_5_3"
+    },
+    {
+      "label": "5.4",
+      "id": "ch05_plate",
+      "title": "A peptide HLA and T cell receptor complex",
+      "caption": "Original view of experimentally deposited PDB 1AO7 coordinates, an X-ray-derived model with a reported resolution of 2.60 Å (an ångström, Å, is one ten-billionth of a metre). Lines connecting alpha-carbon (Cα) positions trace the modeled protein backbones of HLA-A2, β2-microglobulin, a viral Tax peptide and a T-cell receptor; colour and the legend identify author chain IDs. The complex illustrates physical recognition geometry. It is not a breast-cancer target, a vaccine or a complete membrane-bound cell system. Credit Garboczi and colleagues. PDB coordinate data CC0 1.0. Image credit I5. [C5S30]",
+      "file": "ch05_plate.png",
+      "width_inches": 6.2,
+      "pixels": [
+        2280,
+        1920
+      ],
+      "kind": "Scientific plate",
+      "bookmark": "figure_5_4"
+    },
+    {
+      "label": "5.5",
+      "id": "ch05_04",
+      "title": "The same allele fraction can describe different mixtures",
+      "caption": "Fictional local DNA mixtures. In each panel, all ten cells have two copies of the region and normal cells carry no altered copy. Each carrying tumour cell has one altered copy. Panel A has six altered copies among twenty; B and C each have three among twenty despite different cellular compositions. Here p is tumour purity and f is the fraction of tumour cells carrying the alteration. The numbers are idealized expectations with equal molecular sampling and no copy-number change, not observed read counts. Real composition requires further evidence. [C5S04, C5S12]",
+      "file": "ch05_04.png",
+      "width_inches": 6.25,
+      "pixels": [
+        2400,
+        2250
+      ],
+      "kind": "Original scientific diagram",
+      "bookmark": "figure_5_5"
+    },
+    {
+      "label": "6.1",
+      "id": "ch06_01",
+      "title": "Different vaccination goals",
+      "caption": "Vaccination goals determine the population, immune target, and outcome to be evaluated. Infection-preventing vaccines prepare immunity against a relevant infectious agent. Therapeutic cancer vaccination begins after a cancer diagnosis; adjuvant breast cancer studies investigate whether responses against tumour features can improve later outcomes. Arrows show intended relationships, not guaranteed effects or effect sizes. Cell and agent symbols are conceptual and are not microscopy or molecular structures. [C6S01, C6S03, C6S05]",
+      "file": "ch06_01.png",
+      "width_inches": 6.25,
+      "pixels": [
+        2400,
+        1980
+      ],
+      "kind": "Original scientific diagram",
+      "bookmark": "figure_6_1"
+    },
+    {
+      "label": "6.2",
+      "id": "ch06_plate",
+      "title": "A human T lymphocyte under electron microscopy",
+      "caption": "A scanning electron micrograph of a T lymphocyte from a healthy human donor. The source image is colourized; the display colours are not the cell’s natural colours or a readout of antigen specificity or activation. Cell shape in this image cannot establish a vaccine-induced immune response. Credit NIAID and NIH, 24 May 2010. Public domain. Image credit I6.",
+      "file": "ch06_plate.png",
+      "width_inches": 4.65,
+      "pixels": [
+        1884,
+        1884
+      ],
+      "kind": "Scientific plate",
+      "bookmark": "figure_6_2"
+    },
+    {
+      "label": "6.3",
+      "id": "ch06_02",
+      "title": "From a candidate target to clinical evidence",
+      "caption": "A target proposal, a measured immune response, and a clinical outcome occupy different positions in the evidence chain. Each transition requires appropriate support: sequence and expression evidence do not establish natural presentation, and detection of antigen-specific blood T cells does not establish tumour control. The right column names evidence relevant to each question. The sequence is a simplified account of antigen-directed T-cell mechanisms, not a complete model of all immune contributions. [C6S03, C6S05, C6S14]",
+      "file": "ch06_02.png",
+      "width_inches": 6.1,
+      "pixels": [
+        2400,
+        2400
+      ],
+      "kind": "Original scientific diagram",
+      "bookmark": "figure_6_3"
+    },
+    {
+      "label": "6.4",
+      "id": "ch06_03",
+      "title": "The boundaries of a personalized research workflow",
+      "caption": "A personalized research strategy crosses specimen, computational, experimental, and medicinal-product boundaries. The grouped inputs contribute through appropriate assays: tumour-normal comparison supports somatic calls, RNA measurements support expression, and HLA typing establishes presentation context. Their aligned positions do not imply one-to-one specimen-to-feature derivation. Candidate review can lead to protocol-defined biological testing and controlled investigational-product preparation; the dashed arrow denotes possible research feedback. Testing schedules and feedback differ by study. A candidate file does not establish product quality, safety, or clinical benefit. [C6S03, C6S05]",
+      "file": "ch06_03.png",
+      "width_inches": 6.0246913580246915,
+      "pixels": [
+        2400,
+        2430
+      ],
+      "kind": "Original scientific diagram",
+      "bookmark": "figure_6_4"
+    },
+    {
+      "label": "6.5",
+      "id": "ch06_04",
+      "title": "Read the population before interpreting follow-up",
+      "caption": "Reported populations and follow-up in TNBC-MERIT. The registry lists 42 participants across the broader multiarm study. The 2026 individualized-vaccine report describes 15 consented patients, of whom 14 were per-protocol evaluable and one discontinued following treatment-emergent adverse events. At the February 2025 cutoff, the paper described 10 participants remaining relapse-free, another who had remained relapse-free until death of unknown cause 15 months after the last vaccination, and three recurrences. The count strip summarizes those 14 participants; it is not a survival curve, an equal-duration follow-up comparison, or an estimate of recurrences prevented. The discontinued participant and the death are distinct observations in different populations. Adapted as an original graphic from published aggregate counts. [C6S03, C6S04]",
+      "file": "ch06_04.png",
+      "width_inches": 6.1,
+      "pixels": [
+        2400,
+        2400
+      ],
+      "kind": "Original scientific diagram",
+      "bookmark": "figure_6_5"
+    },
+    {
+      "label": "7.1",
+      "id": "ch07_01",
+      "title": "Different operations change different objects",
+      "caption": "Generation proposes an object, prediction estimates a named property, and heuristic ranking reorders fixed records. The displayed symbols, features and estimates are schematic; they do not represent an assay or a fitted vaccine model. [C7S02, C7S05, C7S12]",
+      "file": "ch07_01.png",
+      "width_inches": 6.25,
+      "pixels": [
+        2250,
+        1800
+      ],
+      "kind": "Original scientific diagram",
+      "bookmark": "figure_7_1"
+    },
+    {
+      "label": "7.2",
+      "id": "ch07_02",
+      "title": "Two mechanisms for proposing an object",
+      "caption": "A sequence model appends a sampled next token and recomputes its conditional distribution. A diffusion model repeatedly applies a learned update to a noisy representation. The probabilities and point states are teaching examples, not outputs of a trained model or molecular simulation. [C7S01, C7S02, C7S03, C7S10]",
+      "file": "ch07_02.png",
+      "width_inches": 6.25,
+      "pixels": [
+        2250,
+        1890
+      ],
+      "kind": "Original scientific diagram",
+      "bookmark": "figure_7_2"
+    },
+    {
+      "label": "7.3",
+      "id": "ch07_03",
+      "title": "Changing a target creates a recognition question",
+      "caption": "An altered target T* may be investigated for eliciting a response, while the research objective requires recognition of the original tumour target T. Dashed arrows mark unresolved relationships. The HLA displays and cells are schematic; symbol counts do not specify peptide lengths. [C7S06, C7S07, C7S11]",
+      "file": "ch07_03.png",
+      "width_inches": 6.25,
+      "pixels": [
+        2250,
+        1860
+      ],
+      "kind": "Original scientific diagram",
+      "bookmark": "figure_7_3"
+    },
+    {
+      "label": "7.4",
+      "id": "ch07_04",
+      "title": "First-place records under the saved fictional priorities",
+      "caption": "Executed fictional arithmetic for twelve records and the 2,000 saved weight vectors. The triangle shows which record receives the largest weighted sum at each sampled priority; bars count the same outcomes. Frequencies depend on the chosen sampling distribution and do not estimate immunogenicity or vaccine efficacy. [C7S12]",
+      "file": "ch07_04.png",
+      "width_inches": 6.25,
+      "pixels": [
+        2250,
+        2130
+      ],
+      "kind": "Original scientific diagram",
+      "bookmark": "figure_7_4"
+    },
+    {
+      "label": "7.5",
+      "id": "ch07_plate",
+      "title": "Experimental evidence after protein design",
+      "caption": "Original Cα view of the cryo-EM-derived model PDB 8SK7 at 2.93 Å. One influenza haemagglutinin protomer and the RFdiffusion-designed HA_20 binder are shown using author chain IDs A, G and X. Other protomers, binders, glycans and atoms are omitted. This published influenza study links design to structural experimental evidence; it does not establish a breast-cancer vaccine or patient benefit. Credit Borst, Bennett, Watson and colleagues. PDB coordinate data CC0 1.0. Image credit I7. [C7S03]",
+      "file": "ch07_plate.png",
+      "width_inches": 6.2,
+      "pixels": [
+        2280,
+        1920
+      ],
+      "kind": "Scientific plate",
+      "bookmark": "figure_7_5"
+    },
+    {
+      "label": "8.1",
+      "id": "ch08_01",
+      "title": "One model, several evidence questions",
+      "caption": "Evidence accumulates through different questions. The companion repeats an educational computation and evaluates 143 internal diagnostic records; open markers identify follow-up studies that it did not perform. The staircase has no numerical scale and is not an inevitable development sequence. The source data are measurements from breast-mass aspirates, not a population screening cohort. [C8S01, C8S05, C8S17]",
+      "file": "ch08_01.png",
+      "width_inches": 6.25,
+      "pixels": [
+        2220,
+        1890
+      ],
+      "kind": "Original scientific diagram",
+      "bookmark": "figure_8_1"
+    },
+    {
+      "label": "8.2",
+      "id": "ch08_02",
+      "title": "Trace a number back to its inputs",
+      "caption": "The executed computation preserves a path from source representation to internal estimates. Fitted parameters generate probabilities, while observed labels originate in the dataset; both enter the evaluation. The saved input hash identifies the specified numeric representation. Row separation is documented, but the loader lacks the original identifiers needed to independently verify grouping by person. [C8S01, C8S02, C8S03, C8S07]",
+      "file": "ch08_02.png",
+      "width_inches": 6.25,
+      "pixels": [
+        2220,
+        2010
+      ],
+      "kind": "Original scientific diagram",
+      "bookmark": "figure_8_2"
+    },
+    {
+      "label": "8.3",
+      "id": "ch08_plate",
+      "title": "Internal sampling uncertainty in the executed companion",
+      "caption": "Observed proportions from the 143-case diagnostic holdout with 95% Wilson intervals. Even where no errors were observed, the interval extends below one. The plot describes conditional internal test-sample uncertainty; it excludes training variation and transfer to another population. Original plot of the recorded companion analysis at threshold 0.5, with malignant as the positive class. Image credit I8.",
+      "file": "ch08_plate.png",
+      "width_inches": 6.2,
+      "pixels": [
+        2148,
+        1429
+      ],
+      "kind": "Scientific plate",
+      "bookmark": "figure_8_3"
+    },
+    {
+      "label": "8.4",
+      "id": "ch08_03",
+      "title": "Keep endpoints and versions connected",
+      "caption": "A: A ranking score, an immune assay, and outcome follow-up directly measure different domains. Dashes mark other domains, not an absence of possible biological relationships; an observed immune response alone does not establish clinical benefit. B: Changes in inputs, model, threshold, or product process require review of the claims affected and evidence needed, followed by a documented version. This is a scientific teaching map, not a regulatory decision algorithm. [C8S13, C8S15, C8S17]",
+      "file": "ch08_03.png",
+      "width_inches": 6.25,
+      "pixels": [
+        2220,
+        2160
+      ],
+      "kind": "Original scientific diagram",
+      "bookmark": "figure_8_4"
+    },
+    {
+      "label": "8.5",
+      "id": "ch08_04",
+      "title": "Permission is an intersection of conditions",
+      "caption": "Permission for a proposed use depends on relevant participant arrangements or other lawful basis, the approved purpose, and access and sharing terms. This simplified intersection does not establish legal sufficiency. Data, derived outputs, and model parameters may have different release conditions. NIH and HIPAA examples in the text apply within their stated scope and jurisdiction. [C8S08, C8S09, C8S10, C8S11, C8S16]",
+      "file": "ch08_04.png",
+      "width_inches": 6.25,
+      "pixels": [
+        2220,
+        1875
+      ],
+      "kind": "Original scientific diagram",
+      "bookmark": "figure_8_5"
+    }
+  ],
+  "analysis_commit": "64f8e9996d8d7c940b8ac26177ced6fd8702c7f6"
+}

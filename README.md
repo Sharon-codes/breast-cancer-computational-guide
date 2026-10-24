@@ -44,3 +44,15 @@ Proportion metrics use 95% Wilson intervals, including when no errors were obser
 - The candidate exercise cannot produce a patient-specific vaccine. Clinical translation requires evidence and oversight beyond computational ranking.
 
 See [DATA_PROVENANCE.md](DATA_PROVENANCE.md) for sources and licensing. No license has been selected for the newly written code. Third-party data and software retain their own licenses.
+
+## Revised scientific illustrations
+
+The [illustrated edition](illustrated_edition/README.md) includes source code for 32 chapter teaching figures, two views of deposited experimental structures, and three additional data plots. These are scientific schematics, numerical plots and coordinate views. The external anatomy, mammography and microscopy images used in the book have separate source and reuse records in that directory.
+
+```bash
+python -m pip install -r illustrated_edition/requirements.txt
+python illustrated_edition/run_all.py
+```
+
+The numerical analysis remains pinned to commit `64f8e9996d8d7c940b8ac26177ced6fd8702c7f6`; the new scripts do not refit the model or add clinical validation.
+

@@ -1,0 +1,128 @@
+[
+  {
+    "chapter": 1,
+    "file": "ch01_plate.png",
+    "original_file": "source_Breast_anatomy.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Breast_anatomy.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Breast_anatomy.jpg",
+    "artist": "Don Bliss (Illustrator)",
+    "license": "Public domain",
+    "license_url": null,
+    "original_sha256": "ed66370cdf6ab95ae6e3985827f1cc8959a9a31e6c08ac0ed23900e2038b695b",
+    "dimensions": [
+      1013,
+      783
+    ],
+    "changes": "Lossless PNG format conversion; no content changes",
+    "retrieved": "2026-10-24"
+  },
+  {
+    "chapter": 2,
+    "file": "ch02_plate.png",
+    "original_file": "source_Mammogram_showing_cancer.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Mammogram_showing_cancer.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Mammogram_showing_cancer.jpg",
+    "artist": "Unknown photographer",
+    "license": "Public domain",
+    "license_url": null,
+    "original_sha256": "17cbbde7508f7d5223b22e27111d58fdd3ad7a72f94a50de451018e746bde5fa",
+    "dimensions": [
+      1800,
+      2253
+    ],
+    "changes": "Lossless PNG format conversion; no content changes",
+    "retrieved": "2026-10-24"
+  },
+  {
+    "chapter": 3,
+    "file": "ch03_plate.png",
+    "original_file": "source_Ductal_carcinoma_-_cytology.gif",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Ductal_carcinoma_-_cytology.gif",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Ductal_carcinoma_-_cytology.gif",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Nephron\" title=\"User:Nephron\">Nephron</a>",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "original_sha256": "5f36768beabbed9634756d49460d55f51e74e036244dd335e2d5363e03bc0c97",
+    "dimensions": [
+      4272,
+      2848
+    ],
+    "changes": "Frame 0 extracted to PNG",
+    "retrieved": "2026-10-24"
+  },
+  {
+    "chapter": 4,
+    "file": "ch04_plate.png",
+    "original_file": "source_Mammogram_showing_normal_dense_breasts.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Mammogram_showing_normal_dense_breasts.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Mammogram_showing_normal_dense_breasts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "artist": "Unknown photographer",
+    "license": "Public domain",
+    "license_url": null,
+    "original_sha256": "87adf29b4051aecd7634e4b3149fb962bcdd06a9ac1be00c481412b8c330446d",
+    "dimensions": [
+      1751,
+      2700
+    ],
+    "changes": "Lossless PNG format conversion; no content changes",
+    "retrieved": "2026-10-24"
+  },
+  {
+    "chapter": 5,
+    "file": "ch05_plate.png",
+    "original_file": "1AO7.cif",
+    "source_page": "https://www.rcsb.org/structure/1AO7",
+    "original_url": "https://files.rcsb.org/download/1AO7.cif",
+    "artist": "Garboczi DN, Ghosh P, Utz U, Fan QR, Biddison WE and Wiley DC",
+    "license": "PDB coordinate data CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "original_sha256": "dc273affacb3aa5bda6aab4ea49ff6e89cc8c53c5190d7264375d8f7c42304b9",
+    "method": "X ray diffraction",
+    "representation": "Original orthographic rendering of modeled C-alpha coordinates; no predicted coordinates generated",
+    "changes": "Selected chains and atom representation; colours and view assigned for explanation",
+    "retrieved": "2026-10-24"
+  },
+  {
+    "chapter": 6,
+    "file": "ch06_plate.png",
+    "original_file": "source_Healthy_Human_T_Cell.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Healthy_Human_T_Cell.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Healthy_Human_T_Cell.jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.niaid.nih.gov/\">NIAID/NIH</a>",
+    "license": "Public domain",
+    "license_url": null,
+    "original_sha256": "4cb929f4a215eca199389eddb38dd9dc018b0085aab6a807c364143bedbdf0f7",
+    "dimensions": [
+      1884,
+      1884
+    ],
+    "changes": "Lossless PNG format conversion; no content changes",
+    "retrieved": "2026-10-24"
+  },
+  {
+    "chapter": 7,
+    "file": "ch07_plate.png",
+    "original_file": "8SK7.cif",
+    "source_page": "https://www.rcsb.org/structure/8SK7",
+    "original_url": "https://files.rcsb.org/download/8SK7.cif",
+    "artist": "Borst AJ and Bennett NR; Watson JL et al",
+    "license": "PDB coordinate data CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "original_sha256": "43e44113d23f28ef7b126443cb9d0de64fc0175c399695f51af671dce1d40e28",
+    "method": "Electron microscopy",
+    "representation": "Original orthographic rendering of modeled C-alpha coordinates; no predicted coordinates generated",
+    "changes": "Selected chains and atom representation; colours and view assigned for explanation",
+    "retrieved": "2026-10-24"
+  },
+  {
+    "chapter": 8,
+    "file": "ch08_plate.png",
+    "original_file": "analysis.json",
+    "source_page": "https://github.com/Sharon-codes/breast-cancer-computational-guide/commit/64f8e9996d8d7c940b8ac26177ced6fd8702c7f6",
+    "artist": "Original plot of the recorded companion analysis",
+    "license": "Original numerical analysis figure",
+    "changes": "Saved estimates and Wilson intervals plotted without refitting",
+    "retrieved": "2026-10-24",
+    "kind": "Executed internal diagnostic analysis"
+  }
+]
