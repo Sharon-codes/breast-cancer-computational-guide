@@ -1,0 +1,339 @@
+{
+  "purpose": "Education and reproducibility, not clinical use",
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8"
+  },
+  "diagnostic": {
+    "dataset": "Wisconsin Diagnostic Breast Cancer bundled with scikit-learn",
+    "dataset_doi": "10.24432/C5DW2B",
+    "seed": 20261024,
+    "n_cases": 569,
+    "n_features": 30,
+    "malignant_cases": 212,
+    "benign_cases": 357,
+    "training_cases": 426,
+    "test_cases": 143,
+    "positive_class": "malignant (recoded from sklearn target 0)",
+    "threshold": 0.5,
+    "selection": "five-fold training-only grid search by ROC AUC",
+    "C_grid": [
+      0.01,
+      0.1,
+      1.0,
+      10.0
+    ],
+    "best_C": 1.0,
+    "training_cv_best_mean_auc": 0.9981085581930074,
+    "model": {
+      "n": 143,
+      "true_negatives": 90,
+      "false_positives": 0,
+      "false_negatives": 5,
+      "true_positives": 48,
+      "sensitivity": 0.9056603773584906,
+      "specificity": 1.0,
+      "positive_predictive_value": 1.0,
+      "negative_predictive_value": 0.9473684210526315,
+      "accuracy": 0.965034965034965,
+      "roc_auc": 0.9865828092243186,
+      "average_precision": 0.9837580282279355,
+      "brier_score": 0.03453309671277623
+    },
+    "dummy_prior_baseline": {
+      "n": 143,
+      "true_negatives": 90,
+      "false_positives": 0,
+      "false_negatives": 53,
+      "true_positives": 0,
+      "sensitivity": 0.0,
+      "specificity": 1.0,
+      "positive_predictive_value": null,
+      "negative_predictive_value": 0.6293706293706294,
+      "accuracy": 0.6293706293706294,
+      "roc_auc": 0.5,
+      "average_precision": 0.3706293706293706,
+      "brier_score": 0.23327005270072124
+    },
+    "proportion_intervals": {
+      "method": "95% Wilson binomial score intervals",
+      "interpretation": "Internal holdout sampling uncertainty only; no training or population-shift uncertainty.",
+      "intervals": {
+        "sensitivity": {
+          "lower": 0.7974627262370373,
+          "upper": 0.9590273585027496,
+          "numerator": 48,
+          "denominator": 53
+        },
+        "specificity": {
+          "lower": 0.9590643744356734,
+          "upper": 1.0,
+          "numerator": 90,
+          "denominator": 90
+        },
+        "positive_predictive_value": {
+          "lower": 0.9258998703338824,
+          "upper": 0.9999999999999999,
+          "numerator": 48,
+          "denominator": 48
+        },
+        "negative_predictive_value": {
+          "lower": 0.882651138829621,
+          "upper": 0.9773118869508504,
+          "numerator": 90,
+          "denominator": 95
+        },
+        "accuracy": {
+          "lower": 0.9207644763108684,
+          "upper": 0.9849742780446318,
+          "numerator": 138,
+          "denominator": 143
+        }
+      }
+    },
+    "bootstrap": {
+      "method": "ordinary heldout case percentile bootstrap",
+      "confidence_level": 0.95,
+      "requested_replicates": 2000,
+      "skipped_single_class_replicates": 0,
+      "interpretation": "Conditional test-sample uncertainty; excludes full training uncertainty and external validity.",
+      "intervals": {
+        "roc_auc": {
+          "lower": 0.9662637625331256,
+          "upper": 0.9987898506860371,
+          "valid_replicates": 2000
+        },
+        "average_precision": {
+          "lower": 0.9600865168860694,
+          "upper": 0.9981485042735042,
+          "valid_replicates": 2000
+        },
+        "brier_score": {
+          "lower": 0.012568956742859913,
+          "upper": 0.06163419613506757,
+          "valid_replicates": 2000
+        }
+      }
+    },
+    "data_sha256": "3019c221882c9c756a9b1c76da7ad72cf606ffe8e51791044aeaadeb33efbd12",
+    "limitations": [
+      "Selected breast-mass FNA nuclear measurements; not mammograms or population screening.",
+      "The loader omits original identifiers; this is a stratified row/case split, not independently verified patient grouping.",
+      "No stage labels: early-stage sensitivity cannot be assessed.",
+      "No demographic columns: demographic subgroup fairness cannot be assessed.",
+      "Internal evaluation only; no external clinical validation or mortality endpoint.",
+      "Brier score measures probabilistic accuracy; it is not a pure calibration statistic.",
+      "No generative model, vaccine candidate, or clinically deployable diagnostic tool is produced."
+    ]
+  },
+  "prevalence": {
+    "assumptions": "Hypothetical fixed sensitivity 0.90, specificity 0.95, N=100000; not derived from WDBC or a clinical trial.",
+    "scenarios": [
+      {
+        "prevalence": 0.001,
+        "sensitivity": 0.9,
+        "specificity": 0.95,
+        "n": 100000,
+        "tp": 90.0,
+        "fn": 9.999999999999998,
+        "fp": 4995.000000000005,
+        "tn": 94905.0,
+        "ppv": 0.017699115044247773,
+        "npv": 0.9998946425749354
+      },
+      {
+        "prevalence": 0.005,
+        "sensitivity": 0.9,
+        "specificity": 0.95,
+        "n": 100000,
+        "tp": 450.0,
+        "fn": 49.999999999999986,
+        "fp": 4975.000000000005,
+        "tn": 94525.0,
+        "ppv": 0.0829493087557603,
+        "npv": 0.9994713190589479
+      },
+      {
+        "prevalence": 0.01,
+        "sensitivity": 0.9,
+        "specificity": 0.95,
+        "n": 100000,
+        "tp": 900.0,
+        "fn": 99.99999999999997,
+        "fp": 4950.000000000005,
+        "tn": 94050.0,
+        "ppv": 0.15384615384615372,
+        "npv": 0.9989378651088688
+      },
+      {
+        "prevalence": 0.05,
+        "sensitivity": 0.9,
+        "specificity": 0.95,
+        "n": 100000,
+        "tp": 4500.0,
+        "fn": 499.9999999999999,
+        "fp": 4750.000000000005,
+        "tn": 90250.0,
+        "ppv": 0.4864864864864863,
+        "npv": 0.9944903581267218
+      },
+      {
+        "prevalence": 0.1,
+        "sensitivity": 0.9,
+        "specificity": 0.95,
+        "n": 100000,
+        "tp": 9000.0,
+        "fn": 999.9999999999998,
+        "fp": 4500.000000000004,
+        "tn": 85500.0,
+        "ppv": 0.6666666666666665,
+        "npv": 0.9884393063583815
+      }
+    ]
+  },
+  "prioritization": {
+    "kind": "Unvalidated heuristic sensitivity analysis using fictional unitless features",
+    "n_fictional_candidates": 12,
+    "n_weight_draws": 2000,
+    "distinct_first_ranked_candidates": 4,
+    "candidates": [
+      {
+        "candidate_id": "fictional_01",
+        "expression_support": 0.9396744938063226,
+        "presentation_support": 0.9198067203569968,
+        "clonality_support": 0.17709418080783815,
+        "equal_weight_score": 0.6788584649903858,
+        "fraction_ranked_first": 0.3535,
+        "median_rank": 2.0,
+        "best_rank": 1,
+        "worst_rank": 11
+      },
+      {
+        "candidate_id": "fictional_02",
+        "expression_support": 0.5045069752277607,
+        "presentation_support": 0.4566289694838055,
+        "clonality_support": 0.2635085175595064,
+        "equal_weight_score": 0.4082148207570242,
+        "fraction_ranked_first": 0.0,
+        "median_rank": 10.0,
+        "best_rank": 5,
+        "worst_rank": 12
+      },
+      {
+        "candidate_id": "fictional_03",
+        "expression_support": 0.3320942527863793,
+        "presentation_support": 0.4336563515914018,
+        "clonality_support": 0.3741336466052069,
+        "equal_weight_score": 0.37996141699432934,
+        "fraction_ranked_first": 0.0,
+        "median_rank": 10.0,
+        "best_rank": 8,
+        "worst_rank": 12
+      },
+      {
+        "candidate_id": "fictional_04",
+        "expression_support": 0.31272640278754793,
+        "presentation_support": 0.5446279389211467,
+        "clonality_support": 0.3486539543809253,
+        "equal_weight_score": 0.4020027653632066,
+        "fraction_ranked_first": 0.0,
+        "median_rank": 9.0,
+        "best_rank": 7,
+        "worst_rank": 12
+      },
+      {
+        "candidate_id": "fictional_05",
+        "expression_support": 0.2750633839760648,
+        "presentation_support": 0.8192983468541184,
+        "clonality_support": 0.8463005801737753,
+        "equal_weight_score": 0.6468874370013195,
+        "fraction_ranked_first": 0.0055,
+        "median_rank": 3.0,
+        "best_rank": 1,
+        "worst_rank": 12
+      },
+      {
+        "candidate_id": "fictional_06",
+        "expression_support": 0.8033312010349684,
+        "presentation_support": 0.2544196425896733,
+        "clonality_support": 0.16918145633976706,
+        "equal_weight_score": 0.4089774333214696,
+        "fraction_ranked_first": 0.0,
+        "median_rank": 10.0,
+        "best_rank": 2,
+        "worst_rank": 12
+      },
+      {
+        "candidate_id": "fictional_07",
+        "expression_support": 0.7357636875901795,
+        "presentation_support": 0.6117371279952502,
+        "clonality_support": 0.4099963901083238,
+        "equal_weight_score": 0.5858324018979179,
+        "fraction_ranked_first": 0.0,
+        "median_rank": 5.0,
+        "best_rank": 3,
+        "worst_rank": 8
+      },
+      {
+        "candidate_id": "fictional_08",
+        "expression_support": 0.44207509891252095,
+        "presentation_support": 0.2617619234652726,
+        "clonality_support": 0.9093704267726879,
+        "equal_weight_score": 0.5377358163834938,
+        "fraction_ranked_first": 0.026,
+        "median_rank": 6.0,
+        "best_rank": 1,
+        "worst_rank": 11
+      },
+      {
+        "candidate_id": "fictional_09",
+        "expression_support": 0.43737067255998074,
+        "presentation_support": 0.18781146599256102,
+        "clonality_support": 0.874096522966177,
+        "equal_weight_score": 0.49975955383957293,
+        "fraction_ranked_first": 0.0,
+        "median_rank": 8.0,
+        "best_rank": 2,
+        "worst_rank": 12
+      },
+      {
+        "candidate_id": "fictional_10",
+        "expression_support": 0.46188402915083615,
+        "presentation_support": 0.6620623494134766,
+        "clonality_support": 0.553735126559141,
+        "equal_weight_score": 0.5592271683744846,
+        "fraction_ranked_first": 0.0,
+        "median_rank": 5.0,
+        "best_rank": 4,
+        "worst_rank": 8
+      },
+      {
+        "candidate_id": "fictional_11",
+        "expression_support": 0.3807158519295646,
+        "presentation_support": 0.7358859487001687,
+        "clonality_support": 0.5494926787586055,
+        "equal_weight_score": 0.5553648264627796,
+        "fraction_ranked_first": 0.0,
+        "median_rank": 6.0,
+        "best_rank": 3,
+        "worst_rank": 10
+      },
+      {
+        "candidate_id": "fictional_12",
+        "expression_support": 0.6887412812395125,
+        "presentation_support": 0.8530604387823604,
+        "clonality_support": 0.8282520134585885,
+        "equal_weight_score": 0.7900179111601537,
+        "fraction_ranked_first": 0.615,
+        "median_rank": 1.0,
+        "best_rank": 1,
+        "worst_rank": 4
+      }
+    ],
+    "limitations": "No biological sequences, patient-specific vaccine design, generative AI training, immunogenicity prediction, normal-tissue safety test, or biological validation. Weight frequencies are not probabilities of efficacy."
+  }
+}
