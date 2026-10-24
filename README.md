@@ -14,6 +14,7 @@ source .venv/bin/activate
 python -m pip install -r requirements.txt
 python run_analysis.py --bootstrap 2000
 python -m unittest discover -s tests -v
+python make_book_figures.py
 ```
 
 On Windows, activate the virtual environment with `.venv\Scripts\activate`.
@@ -28,6 +29,8 @@ The dataset is bundled with scikit-learn; execution does not require patient rec
 ## Results and uncertainty
 
 See [RESULTS.md](RESULTS.md) and [results/analysis.json](results/analysis.json). Saved outputs include split indices, heldout predictions, training selection results, fitted numerical parameters, reliability-bin counts, hypothetical counts, and fictional ranking results.
+
+The `book_figures/` directory contains twelve original monochrome teaching figures and a manifest distinguishing conceptual diagrams, executed calculations, fictional examples, and published summary statistics. The MASAI plot visualizes a reported interval-cancer ratio; it is not a patient-data reanalysis. Figure generation does not train an imaging or biological generative model.
 
 Proportion metrics use 95% Wilson intervals, including when no errors were observed. ROC AUC, average precision, and Brier score use 2,000 heldout case bootstrap samples. These intervals describe internal test-sample uncertainty conditional on the fitted model and split; they exclude full training uncertainty and external validity. The selected best cross-validation score is a model-selection statistic, not an unbiased performance estimate. Undefined metrics are JSON `null`, never zero.
 

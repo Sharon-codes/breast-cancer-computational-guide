@@ -1,0 +1,124 @@
+[
+  {
+    "name": "01_clinical_questions",
+    "chapter": 1,
+    "file": "01_clinical_questions.png",
+    "caption": "A conceptual separation of clinical questions. This is not a self-diagnosis or staging algorithm. The relevant clinical pathway depends on the person and findings.",
+    "source_keys": [
+      "https://www.cancer.gov/types/breast/symptoms",
+      "https://www.cancer.gov/types/breast/diagnosis"
+    ],
+    "kind": "original conceptual diagram"
+  },
+  {
+    "name": "02_screening_evidence",
+    "chapter": 2,
+    "file": "02_screening_evidence.png",
+    "caption": "Questions for appraising a screening claim. Improved test performance does not by itself answer every question about benefit, harm or implementation.",
+    "source_keys": [
+      "https://www.cancer.gov/types/breast/screening"
+    ],
+    "kind": "original conceptual diagram"
+  },
+  {
+    "name": "03_confusion_counts",
+    "chapter": 3,
+    "file": "03_confusion_counts.png",
+    "caption": "Executed internal holdout counts at threshold 0.5, with malignant as the positive class. The 143 selected diagnostic cases are not a population screening cohort.",
+    "source_keys": [
+      "results/analysis.json"
+    ],
+    "kind": "executed analysis"
+  },
+  {
+    "name": "04_training_and_holdout",
+    "chapter": 3,
+    "file": "04_training_and_holdout.png",
+    "caption": "The executed evaluation design. The bundled data omit original identifiers; row separation does not independently verify grouped patient separation.",
+    "source_keys": [
+      "run_analysis.py"
+    ],
+    "kind": "executed analysis"
+  },
+  {
+    "name": "05_prevalence_and_ppv",
+    "chapter": 3,
+    "file": "05_prevalence_and_ppv.png",
+    "caption": "Mathematical illustration using assumed fixed sensitivity and specificity. These are not measured screening estimates and are not transported from the diagnostic classifier.",
+    "source_keys": [
+      "results/hypothetical_prevalence.csv"
+    ],
+    "kind": "hypothetical arithmetic"
+  },
+  {
+    "name": "06_masai_interval_ratio",
+    "chapter": 4,
+    "file": "06_masai_interval_ratio.png",
+    "caption": "A plot of the reported MASAI interval-cancer ratio 0.88 with 95% confidence interval 0.65 to 1.18. The trial established non-inferiority under its prespecified margin; this interval does not establish superior reduction or a mortality benefit. This figure is a visualization of published summary statistics, not a reanalysis of patient data.",
+    "source_keys": [
+      "https://pubmed.ncbi.nlm.nih.gov/41620232/"
+    ],
+    "kind": "published summary statistics"
+  },
+  {
+    "name": "07_synthetic_data_questions",
+    "chapter": 4,
+    "file": "07_synthetic_data_questions.png",
+    "caption": "A conceptual appraisal of synthetic imaging. Plausibility alone does not establish privacy, representative coverage or clinical usefulness.",
+    "source_keys": [
+      "https://pubmed.ncbi.nlm.nih.gov/40790276/"
+    ],
+    "kind": "original conceptual diagram"
+  },
+  {
+    "name": "08_target_evidence",
+    "chapter": 5,
+    "file": "08_target_evidence.png",
+    "caption": "A simplified evidence map rather than an executable vaccine pipeline. Binding, presentation, recognition, safety and clinical benefit are distinct endpoints.",
+    "source_keys": [
+      "https://pubmed.ncbi.nlm.nih.gov/33038342/"
+    ],
+    "kind": "original conceptual diagram"
+  },
+  {
+    "name": "09_vaccine_endpoints",
+    "chapter": 6,
+    "file": "09_vaccine_endpoints.png",
+    "caption": "These endpoints are related but not interchangeable. Immune responses alone do not establish lower recurrence or longer survival.",
+    "source_keys": [
+      "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-considerations-therapeutic-cancer-vaccines"
+    ],
+    "kind": "original conceptual diagram"
+  },
+  {
+    "name": "10_generation_and_evaluation",
+    "chapter": 7,
+    "file": "10_generation_and_evaluation.png",
+    "caption": "Generative proposal and predictive estimation play different roles. The diagram does not assert that the companion implements a biological generator or produces a clinically usable vaccine.",
+    "source_keys": [
+      "https://pubmed.ncbi.nlm.nih.gov/37433327/",
+      "https://pubmed.ncbi.nlm.nih.gov/33038342/"
+    ],
+    "kind": "original conceptual diagram"
+  },
+  {
+    "name": "11_fictional_rank_sensitivity",
+    "chapter": 7,
+    "file": "11_fictional_rank_sensitivity.png",
+    "caption": "Executed sensitivity analysis of fictional, unitless records under arbitrary weight draws. The fractions describe this scoring exercise and are not probabilities of immunogenicity, safety or vaccine efficacy.",
+    "source_keys": [
+      "results/fictional_priority_sensitivity.csv"
+    ],
+    "kind": "fictional feature exercise"
+  },
+  {
+    "name": "12_reproducible_project",
+    "chapter": 8,
+    "file": "12_reproducible_project.png",
+    "caption": "A conceptual structure for an inspectable project. Reproducibility supports appraisal but does not by itself establish external validity or clinical benefit.",
+    "source_keys": [
+      "https://pubmed.ncbi.nlm.nih.gov/38626948/"
+    ],
+    "kind": "original conceptual diagram"
+  }
+]
